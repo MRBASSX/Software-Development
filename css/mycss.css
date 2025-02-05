@@ -1,0 +1,65 @@
+.loveColor{
+			color: aquamarine;
+		}
+.danger{
+			color: red;
+		}
+
+
+.Student{
+			display:flex;
+			justify-content: space-around;
+			background-color: black;
+			color: white;
+
+		}
+		.mynav{
+			background-color: black;
+			color: white;
+			
+
+		}
+		*{
+			margin: 0px;
+			 
+
+
+		}
+
+.success{
+	color: green;
+	font-size: 100px;
+}
+
+#bam{
+			background:aqua;
+			color:white ;
+		}
+		.menu{
+			display: flex;
+			flex-direction: column;
+			height: 100px;
+			background: aquamarine;
+		}
+		.ul1{
+			display: flex;
+			justify-content: space-between;
+
+		}
+		.ul2{
+			display: flex;
+			justify-content: space-between;
+}
+       .ul1 ul{
+       	display: flex;
+       	column-gap: 80px;
+       
+       }
+       .ul2 ul {
+       	display: flex;
+       	column-gap: 80px;
+       }
+
+      .danger{
+			color: green;
+		}
