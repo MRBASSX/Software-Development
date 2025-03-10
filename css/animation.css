@@ -1,0 +1,71 @@
+.container{
+	height: 800px;
+	border: 1px solid red;
+	background-color: rgba(0, 0, 0, 1.0);
+	animation-name: MyAnimatedBox;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.box{
+
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border: 1px solid red;
+	border-radius: 2rem;
+	animation-name: MyAnimatedBox;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+
+
+@keyframes MyAnimatedBox{
+
+	from{
+
+		border: 10px solid red;
+		border-radius: 12rem;
+		width: 100%;
+		transform: rotate(45deg);
+
+	}
+
+	30%{
+
+        transform: rotate(65deg);
+        border: 0px solid red;
+		border-radius: 0rem;
+		width: 30%;
+
+	}
+
+	40%{
+
+        border: 50px solid red;
+		border-radius: 50rem;
+		width: 10%;
+		transform: rotate(35deg);
+
+	}
+
+	50%{
+
+        border: 5px solid red;
+		border-radius: 5rem;
+		transform: rotate(25deg);
+
+	}
+
+	to{
+
+		border: 0px solid red;
+		border-radius: 0rem;
+		transform: rotate(360deg);
+
+
+	}
+
+
+}

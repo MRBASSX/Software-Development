@@ -1,0 +1,74 @@
+
+*{
+	text-decoration: none;
+	margin: 0px;
+}
+
+.menu{
+	background: blue;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+	color: white;
+	font-size: 20px;
+	list-style: none;
+
+}
+/*.menu li a{
+	color: white;
+}*/
+
+.menu li a{
+	color: white;
+}
+
+.menu li a:visited{
+	color:red;
+}
+.menu li a:hover {
+	font-size: 25px;
+	color: yellow;
+}
+.menu li::first-letter{
+     color: yellow;
+	font-size:3rem;
+}
+
+.menu li::first-line{
+
+	font-size:0.4rem;
+}
+
+::spelling-error{
+
+	color: red;
+	border-bottom: 89px solid red;
+
+
+}
+
+input::placeholder{
+	color: red;
+	font-size: 50px;
+	font-family: sans-serif;
+	text-align: center;
+}
+input{
+	font-size: 100px;
+
+}
+
+
+.para h6::after {
+
+	content: "I am looking good";
+	font-size: 100px;
+
+}
+.para h6::before {
+
+	content: "I am looking good";
+	font-size: 100px;
+
+}

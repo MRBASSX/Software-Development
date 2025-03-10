@@ -1,0 +1,44 @@
+.transit{
+	
+	/*transition-property:transform;
+	transition-duration: 3s;*/
+	background: rgba(0, 0, 0, .3);
+	width: 200px;
+    height: 200px;
+    border: 1px dotted blue;
+    border-radius: 20rem;
+/*    transform: rotate(65deg);*/
+}
+
+/*.transit:hover {
+
+   width: 200px;
+   height: 200px;
+   color: white;
+   border-radius: 2rem;
+   border: 1px dotted blue;
+   background: rgba(0, 0, 0, .3);
+   transform: translate3d(20px, 20px, 20px);
+
+
+}
+*/
+
+.img{
+
+	width:200px ;
+	height: 200px;
+	transition-duration: 40s;
+	transition-property:height,width,border ;
+	transition-delay: 2s;
+	transition-timing-function: ;
+	
+	
+}
+
+
+.img:hover{
+	width:300px ;
+	height: 300px;
+	border: 29px solid darkred;
+}

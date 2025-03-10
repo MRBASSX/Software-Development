@@ -1,0 +1,95 @@
+.box{
+	background: blue;
+	color: white;
+	width: 250px;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid green;
+	text-align: center;
+	border-radius: 1rem;
+
+}
+
+.img{
+	width: 250px;
+	height: 250px;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.img1{
+	height: 250px;
+	width: 250px;
+}
+
+.nav{
+	height: 100px;
+	background: blue;
+}
+.content{
+	display: flex;
+	height: auto;
+	background: teal;
+}
+
+.left{
+	height: auto;
+	width: 70%;
+	background: yellow;
+	margin: 15px;
+}
+
+.right{
+	height: 600px;
+	width: 30%;
+	background: green;
+	margin: 15px;
+	
+
+}
+
+.coverpage{
+	display: flex;
+	background: teal;
+	height: 710px;
+	padding: 5px;
+	margin: 15px;
+}
+.leftcover{
+	background: blue;
+	height: 700px;
+	width: 50%;
+}
+.covertop{
+	background:yellow;
+	height: 350px;
+	padding: 2px;
+	
+}
+.coverbottom{
+	background:brown;
+	height: 350px;
+	padding: 2px;
+	
+	
+}
+.rightcover{
+	background: green;
+	height: 706px;
+	width: 50%;
+
+
+}
+.imgcover{
+	height: 350px;
+	padding: 2px;
+}
+.imgcover2{
+	height: 706px;
+	padding: 2px;
+}

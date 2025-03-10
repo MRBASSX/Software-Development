@@ -1,0 +1,40 @@
+form fieldset{
+	display: flex;
+	flex-direction: column;
+	row-gap: 50px;
+	background: aqua;
+	width: 450px;
+	border-radius: 1rem;
+	justify-content: center;
+	box-shadow: 0px  0px 120px darkred;
+    padding: 20px;
+    background-image:url("../images/product-7.jpg") ;
+
+
+
+}
+input{
+	height: 60px;
+	border-radius: 1rem;
+	box-shadow: 120px 0px 100px darkblue;
+	
+}
+.nav{
+	 display: flex;
+	 justify-content: center;
+}
+body{background: black;
+
+}
+::placeholder{
+	text-align: center;
+	font-size: 30px;
+
+	
+}
+
+Sala{
+	color: white;
+	font-size: 70px;
+}
+ 

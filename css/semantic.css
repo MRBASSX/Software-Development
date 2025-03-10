@@ -1,0 +1,60 @@
+.head{
+	background-color: aqua;
+	height: 75px;
+	padding: 10px;
+	border: 1px solid white;
+	
+}
+*{
+	margin: 0;
+/*	background: yellow;*/
+}
+
+.article0{
+	background-color: yellow;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 20px green;
+}
+.article1{
+	background-color: green;
+	height: 500px;
+	width: 20%;
+	margin: 10px;
+	padding: 100px;
+	border: 1px solid white;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 20px green;
+}
+.article2{
+	background-color: blue;
+	height: 500px;
+	width: 70%;
+	margin: 10px;
+	padding: 100px;
+	border: 1px solid white;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 20px green;
+
+}
+.all{
+	display: flex;
+	margin: 10px;
+}
+.foot{
+	height: 500px;
+	color: white;
+	background-color: black;
+/*	margin: 10px;*/
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 20px green;
+.foot p{
+	
+	background-color: yellow;
+	color: red;
+}
